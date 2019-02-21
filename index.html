@@ -1,72 +1,110 @@
-<!doctype html>
+<!DOCTYPE html>
 <html lang="en-us">
-  <head>
-    <meta charset="utf-8">
-    <meta http-equiv="x-ua-compatible" content="ie=edge">
-    <title>Zoom Out - Startup</title>
-    <meta name="description" content="">
-    <meta name="viewport" content="width=device-width, initial-scale=1">
-    
-    <!-- Materialize style ink -->
-    <link type="text/css" rel="stylesheet" href="assets/css/materialize.css"/>
-    <!-- CSS Style Sheet -->
-    <link type="text/css" rel="stylesheet" href="assets/css/index.css"/>
-    
-  </head>
-  <body>
-      
-    <!-- Need to add side navbar -->
 
-    
-    <div class="parallax-container">
-      <div class="parallax"><img src="assets/images/lamp.jpg" alt="pic1"></div>
-        <div class="greeting">
-          <h2>Michael Rivera</h2>
-          <h4>Full Stack Web Developer</h4>
+<head>
+  <!--Import Google Icon Font-->
+  <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+  <!-- Compiled and minified CSS -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/css/materialize.min.css">
+  <!-- Local CSS link -->
+  <link rel="stylesheet" href="assets/css/style.css">
+  <!--Let browser know website is optimized for mobile-->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Michael Rivera</title>
+</head>
+
+<body class = "brown lighten-4">
+  <!-- Need to add side navbar -->
+
+    <ul id="slide-out" class="sidenav">
+      <li><div class="user-view">
+        <div class="background">
+          <img src="assets/images/893.jpg" alt="test">
         </div>
-    </div>
-    <div class="section white">
-      <div class="row container">
-        <h2 class="header">Brief Summary</h2>
-        <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia nesciunt repellat aut ipsam quaerat! Nam officiis reprehenderit molestias omnis illum. Fuga dolore accusamus incidunt rerum, adipisci amet eligendi architecto?</p>
-      </div>
-    </div>
-    <div class="parallax-container">
-      <div class="parallax"><img src="assets/images/code.jpg" alt="pic2"></div>
+        <a href="#user"><img class="circle" src="assets/images/893.jpg" alt="test"></a>
+        <a href="#name"><span class="white-text name">Michael Rivera</span></a>
+        <a href="#email"><span class="white-text email">mikescodedesk@gmail.com</span></a>
+      </div></li>
+      <li><a href="#!"><i class="material-icons">cloud</i>First Link With Icon</a></li>
+      <li><a href="#!">Second Link</a></li>
+      <li><div class="divider"></div></li>
+      <li><a class="subheader">Subheader</a></li>
+      <li><a class="waves-effect" href="#!">Third Link With Waves</a></li>
+    </ul>
 
-<!-- Need to get carousel working for portfolio -->
-      <div class="carousel">
-          <a class="carousel-item" href="#one!"><img src="assets/images/8320.jpg"></a>
-          <a class="carousel-item" href="#two!"><img src="assets/images/8320.jpg"></a>
-          <a class="carousel-item" href="#three!"><img src="assets/images/8320.jpg"></a>
-          <a class="carousel-item" href="#four!"><img src="assets/images/8320.jpg"></a>
-          <a class="carousel-item" href="#five!"><img src="assets/images/8320.jpg"></a>
-        </div>
+    <a href="#" data-target="slide-out" class="sidenav-trigger"><i class="material-icons">menu</i></a>
+          
 
 
-    </div>
-    <div class="section white">
-      <div class="row container">
-        <h2 class="header">Portfolio</h2>
-        <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio totam explicabo beatae fugit ea, aliquid numquam quo at suscipit dolorem illum tempore ex similique quam, quasi voluptatum officia, itaque iste!</p>
-      </div>
-    </div>
-    <div class="parallax-container">
-      <div class="parallax"><img src="assets/images/893.jpg" alt="pic3"></div>
-    </div>
+  <div class="parallax-container">
+    <h2 class="brown-text text-lighten-4 right-align" id="name">Michael Rivera</h2>
+    <h4 class="brown-text text-lighten-4 right-align" id="title">Full Stack Web Developer</h4>
+    <div class="parallax"><img class="ressponsive-img" src="assets/images/lamp.jpg" alt="pic1"></div>
+  </div>
+  <div class="section brown lighten-4">
     <div class="row container">
-        <h2 class="header">Contact</h2>
-        <p class="grey-text text-darken-3 lighten-3">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio totam explicabo beatae fugit ea, aliquid numquam quo at suscipit dolorem illum tempore ex similique quam, quasi voluptatum officia, itaque iste!</p>
-      </div>
-    
-    <!-- Scripts -->
-    
-    <!-- jQuery JS Link -->
-    <script type="text/javascript" src="assets/javascript/jquery.js"></script>
-    <!-- Materialize JS Script Link -->
-    <script src="assets/javascript/materialize.js"></script>
-    <!-- logic.js Link -->
-    <script type="text/javascript" src="assets/javascript/logic.js"></script>
-    
-  </body>
-  </html>
+      <h2 class="header">Brief Summary</h2>
+      <p class="grey-text text-darken-3 lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Unde officia
+        nesciunt repellat aut ipsam quaerat! Nam officiis reprehenderit molestias omnis illum. Fuga dolore accusamus
+        incidunt rerum, adipisci amet eligendi architecto?</p>
+    </div>
+  </div>
+  <div class="parallax-container valign-wrapper">
+    <div class="parallax"><img class="responsive-img" src="assets/images/desktop.jpg" alt="pic2"></div>
+
+    <!-- Need to get carousel working for portfolio -->
+    <div class="carousel">
+      <h4 class="brown-text text-lighten-4 center-align">Projects</h4>
+      <a class="carousel-item" href="#one!"><img src="assets/images/8320.jpg" alt="photo-1"></a>
+      <a class="carousel-item" href="#two!"><img src="assets/images/8320.jpg" alt="photo-2"></a>
+      <a class="carousel-item" href="#three!"><img src="assets/images/8320.jpg" alt="photo-3"></a>
+      <a class="carousel-item" href="#four!"><img src="assets/images/8320.jpg" alt="photo-4"></a>
+      <a class="carousel-item" href="#five!"><img src="assets/images/8320.jpg" alt="phtoto-5"></a>
+    </div>
+    <div class="emptyDiv">
+      <h1></h1>
+    </div>
+
+
+  </div>
+  <div class="section brown lighten-4">
+    <div class="row container">
+      <h2 class="header">Portfolio</h2>
+      <p class="grey-text text-darken-3 lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio totam
+        explicabo beatae fugit ea, aliquid numquam quo at suscipit dolorem illum tempore ex similique quam, quasi
+        voluptatum officia, itaque iste!</p>
+    </div>
+  </div>
+  <div class="parallax-container">
+    <div class="parallax"><img class="responsive-img" src="assets/images/contact.jpg" alt="pic3"></div>
+  </div>
+  <div class="row container">
+    <h2 class="header">Contact</h2>
+    <p class="grey-text text-darken-3 lighten-4">Lorem ipsum dolor sit amet consectetur adipisicing elit. Odio totam
+      explicabo beatae fugit ea, aliquid numquam quo at suscipit dolorem illum tempore ex similique quam, quasi
+      voluptatum officia, itaque iste!</p>
+  </div>
+
+  <!-- Scripts -->
+
+  <!-- JQuery  -->
+  <script src="https://code.jquery.com/jquery-3.3.1.min.js"
+    integrity="sha256-FgpCb/KJQlLNfOu91ta32o/NMZxltwRo8QtmkMRdAu8=" crossorigin="anonymous"></script>
+
+  <!-- Compiled and minified JavaScript -->
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+  <!-- logic.js Link -->
+  <script src="assets/javascript/logic.js"></script>
+
+  <script>
+  $(document).ready(function(){
+    $('.parallax').parallax();
+    $('.carousel').carousel();
+    $('.sidenav').sidenav();
+  });
+  </script>
+
+</body>
+
+</html>
